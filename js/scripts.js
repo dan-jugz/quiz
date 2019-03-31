@@ -14,3 +14,18 @@ $(document).ready(function(){
     $("input").prop("disabled", true);
     $("#results").text(name+" "+"your score is :"+" "+display+"%");
   });
+  $("#start").click(function(){
+    $("#quiz").slideToggle();
+  });
+  $("#name").submit(function(){
+    event.preventDefault();
+    $("#name").hide();
+    $("#begin").slideDown();
+  });
+  $("#seeResults").click(function(){
+    $("#begin").hide();
+    $("#questions").hide();
+    $("#answers").show();
+  });
+});
+//business logic
