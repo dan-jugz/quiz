@@ -15,17 +15,17 @@ $(document).ready(function(){
     $("#results").text(name+" "+"your score is :"+" "+display+"%");
   });
   $("#start").click(function(){
-    $("#quiz").slideToggle();
+    $("#quiz").show();
   });
   $("#name").submit(function(){
     event.preventDefault();
-    $("#name").hide();
-    $("#begin").slideDown();
+    $("#name").slideDown();
+    $("#begin").hide();
   });
   $("#seeResults").click(function(){
-    $("#begin").hide();
-    $("#questions").hide();
-    $("#answers").show();
+   $("#begin").hide();
+    $("#questions").show();
+    $("#answers").hide();
   });
 });
 //business logic
