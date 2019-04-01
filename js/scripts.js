@@ -29,3 +29,9 @@ $(document).ready(function(){
   });
 });
 //business logic
+function set(){
+  var names=document.getElementById("firstName").value;
+  var school=document.getElementById("schoolName").value;
+  document.getElementById("person").innerHTML=names;
+  document.getElementById("school").innerHTML=school;
+}
