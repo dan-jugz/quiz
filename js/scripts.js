@@ -15,7 +15,7 @@ $(document).ready(function(){
     $("#results").text(name+" "+"your score is :"+" "+display+"%");
   });
   $("#start").click(function(){
-    $("#quiz").slideToggle();
+    $("#quiz").show();
   });
   $("#name").submit(function(){
     event.preventDefault();
