@@ -1,5 +1,5 @@
 body{
-  background-image: url("../purple.jpg");
+  background-image: url("/img/images.jpg");
 }
 #quiz{
   display: none;
@@ -47,4 +47,7 @@ h1{
   display: none;
   background-color: #DFFDFB;
   opacity: 0.6;
+}
+#start{
+  position: center
 }

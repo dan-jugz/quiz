@@ -19,13 +19,13 @@ $(document).ready(function(){
   });
   $("#name").submit(function(){
     event.preventDefault();
-    $("#name").hide();
-    $("#begin").slideDown();
+    $("#name").slideDown();
+    $("#begin").hide();
   });
   $("#seeResults").click(function(){
     $("#begin").hide();
-    $("#questions").hide();
-    $("#answers").show();
+    $("#questions").show();
+    $("#answers").hide();
   });
 });
 //business logic

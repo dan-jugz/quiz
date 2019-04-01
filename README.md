@@ -7,10 +7,10 @@ github repository :https://github.com/dan-jugz/quiz gh-page :https://dan-jugz.gi
 ..* User-friendly intaface
 ..* Easy to use
 # Setup/Installation Requirements
-..* Go to my github repository :https://github.com/dan-jugz/quiz
-..* From this point,fork the repository to be able to clone or download
-..* Copy the link to clone/download
-..* Clone/download the project using the terminal
+..* Go to my github repository :https://github.com/dan-jugz/quiz.
+..* From this point,fork the repository to be able to clone or download.
+..* Copy the link to clone/download.
+..* Clone/download the project using the terminal.
 # Behavior Driven Development
 Behavior|Input	Output
 --------|------
