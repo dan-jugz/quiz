@@ -1,4 +1,11 @@
-//user interface logic
+//Business logic//
+function set(){
+  var names=document.getElementById("firstName").value;
+  var school=document.getElementById("schoolName").value;
+  document.getElementById("person").innerHTML=names;
+  document.getElementById("school").innerHTML=school;
+}
+//U.I logic//
 $(document).ready(function(){
   $("#quiz").submit(function(event){
     event.preventDefault();
@@ -15,23 +22,16 @@ $(document).ready(function(){
     $("#results").text(name+" "+"your score is :"+" "+display+"%");
   });
   $("#start").click(function(){
-    $("#quiz").show();
+    $("#quiz").slideToggle();
   });
   $("#name").submit(function(){
     event.preventDefault();
-    $("#name").slideDown();
-    $("#begin").hide();
+    $("#name").hide();
+    $("#begin").slideDown();
   });
   $("#seeResults").click(function(){
-   $("#begin").hide();
-    $("#questions").show();
-    $("#answers").hide();
+    $("#begin").hide();
+    $("#questions").hide();
+    $("#answers").show();
   });
 });
-//business logic
-function set(){
-  var names=document.getElementById("firstName").value;
-  var school=document.getElementById("schoolName").value;
-  document.getElementById("person").innerHTML=names;
-  document.getElementById("school").innerHTML=school;
-}
